@@ -1,4 +1,5 @@
-package fourth_practice.vehicles;
+package fiveth_practice.vehicles;
+
 
 public abstract class Vehicle {
   protected String model;

@@ -1,4 +1,4 @@
-package fourth_practice.vehicles;
+package fiveth_practice.vehicles;
 
 
 public class Car extends Vehicle {
@@ -6,7 +6,7 @@ public class Car extends Vehicle {
              String color, int year,
              int insuranceNumber, String ownerName) {
     super(model, license, color, year, insuranceNumber, ownerName);
-    this.engineType = "Combustion";
+    this.engineType = "Fuel";
   }
 
   @Override

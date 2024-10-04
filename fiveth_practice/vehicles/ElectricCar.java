@@ -1,6 +1,6 @@
-package fourth_practice.vehicles;
+package fiveth_practice.vehicles;
 
-public class ElectricCar extends Vehicle {
+public class ElectricCar extends Vehicle implements ElectricVehicle {
   private int batteryCapacity;
 
   public ElectricCar(String model, String license,
@@ -11,10 +11,12 @@ public class ElectricCar extends Vehicle {
     this.batteryCapacity = batteryCapacity;
   }
 
+  @Override
   public void setBatteryCapacity(int batteryCapacity) {
     this.batteryCapacity = batteryCapacity;
   }
 
+  @Override
   public int getBatteryCapacity() {
     return this.batteryCapacity;
   }
